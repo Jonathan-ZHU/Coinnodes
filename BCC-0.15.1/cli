@@ -4,4 +4,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 BIN=$DIR/bin
 
-$BIN/bitcoin-cli -conf=$BIN/bitcoin.conf -datadir=$BIN/data $*
+$BIN/bitcoin-cli -conf=$DIR/bitcoin.conf -datadir=$DIR/data $*

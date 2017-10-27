@@ -4,4 +4,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 BIN=$DIR/bin
 
-$BIN/litecoin -conf=$BIN/litecoin.conf -datadir=$BIN/data -daemon
+$BIN/litecoind -conf=$DIR/litecoin.conf -datadir=$DIR/data -daemon
