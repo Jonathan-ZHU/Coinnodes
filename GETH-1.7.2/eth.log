@@ -1,0 +1,392 @@
+WARN [11-15|11:19:09] No etherbase set and no accounts found as default 
+INFO [11-15|11:19:09] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|11:19:09] Allocated cache and file handles         database=/home/ubuntu/.ethereum/geth/chaindata cache=128 handles=1024
+INFO [11-15|11:19:09] Writing default main-net genesis block 
+INFO [11-15|11:19:09] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Engine: ethash}"
+INFO [11-15|11:19:09] Disk storage enabled for ethash caches   dir=/home/ubuntu/.ethereum/geth/ethash count=3
+INFO [11-15|11:19:09] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash               count=2
+INFO [11-15|11:19:09] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [11-15|11:19:09] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184
+INFO [11-15|11:19:09] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184
+INFO [11-15|11:19:09] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184
+INFO [11-15|11:19:09] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-15|11:19:09] Starting P2P networking 
+INFO [11-15|11:19:11] UDP listener up                          self=enode://c7971e5fa88b39e11b444ab781fe0b8fd9fb1bb1babfe11fbedb44172bce2e01d89112723c1d0c1891f19418b1583fe6a334b994e5ef2c1f2f0e2f844057e110@[::]:30303
+INFO [11-15|11:19:11] RLPx listener up                         self=enode://c7971e5fa88b39e11b444ab781fe0b8fd9fb1bb1babfe11fbedb44172bce2e01d89112723c1d0c1891f19418b1583fe6a334b994e5ef2c1f2f0e2f844057e110@[::]:30303
+INFO [11-15|11:19:11] IPC endpoint opened: /home/ubuntu/.ethereum/geth.ipc 
+INFO [11-15|11:19:11] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|11:19:31] Block synchronisation started 
+INFO [11-15|11:19:32] Imported new state entries               count=247 elapsed=11.953µs processed=247 pending=3953 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:32] Imported new state entries               count=384 elapsed=7.806µs  processed=631 pending=10097 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:32] Imported new state entries               count=384 elapsed=16.181µs processed=1015 pending=16241 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:33] Imported new state entries               count=768 elapsed=1.155ms  processed=1783 pending=19630 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:33] Imported new state entries               count=768 elapsed=4.115ms  processed=2551 pending=19184 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:34] Imported new block headers               count=192 elapsed=1.754s   number=192 hash=723899…123390 ignored=0
+INFO [11-15|11:19:34] Imported new block receipts              count=2   elapsed=183.581µs bytes=8 number=2   hash=b495a1…4698c9 ignored=0
+INFO [11-15|11:19:34] Imported new block receipts              count=4   elapsed=465.033µs bytes=1096 number=6   hash=1f1aed…6b326e ignored=0
+INFO [11-15|11:19:34] Imported new state entries               count=1152 elapsed=4.460ms   processed=3703 pending=24933 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:34] Imported new block receipts              count=104  elapsed=3.523ms   bytes=11184 number=110 hash=a2c694…69cef6 ignored=0
+INFO [11-15|11:19:34] Imported new block receipts              count=82   elapsed=1.472ms   bytes=12212 number=192 hash=723899…123390 ignored=0
+INFO [11-15|11:19:35] Imported new state entries               count=1152 elapsed=6.373ms   processed=4855 pending=24303 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:35] Imported new state entries               count=1152 elapsed=38.329ms  processed=6007 pending=23665 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:36] Imported new state entries               count=1152 elapsed=6.698ms   processed=7159 pending=23065 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:36] Imported new state entries               count=768  elapsed=4.017ms   processed=7927 pending=24075 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:37] Imported new state entries               count=1536 elapsed=7.984ms   processed=9463 pending=23333 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:38] Imported new state entries               count=1152 elapsed=5.439ms   processed=10615 pending=22775 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:38] Imported new state entries               count=768  elapsed=4.064ms   processed=11383 pending=23036 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:39] Imported new state entries               count=1152 elapsed=6.217ms   processed=12535 pending=23301 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:39] Imported new state entries               count=1152 elapsed=5.207ms   processed=13687 pending=22758 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:40] Imported new state entries               count=1152 elapsed=7.646ms   processed=14839 pending=22878 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:41] Imported new state entries               count=1152 elapsed=5.549ms   processed=15991 pending=23155 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:42] Imported new state entries               count=1152 elapsed=7.350ms   processed=17143 pending=22836 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:42] Imported new state entries               count=1152 elapsed=7.985ms   processed=18295 pending=22541 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:44] Imported new state entries               count=1152 elapsed=6.542ms   processed=19447 pending=22269 retry=0 duplicate=0 unexpected=0
+INFO [11-15|11:19:44] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|11:19:44] IPC endpoint closed: /home/ubuntu/.ethereum/geth.ipc 
+INFO [11-15|11:19:44] Blockchain manager stopped 
+INFO [11-15|11:19:44] Stopping Ethereum protocol 
+INFO [11-15|11:19:44] Ethereum protocol stopped 
+INFO [11-15|11:19:44] Transaction pool stopped 
+INFO [11-15|11:19:44] Database closed                          database=/home/ubuntu/.ethereum/geth/chaindata
+WARN [11-15|13:47:35] No etherbase set and no accounts found as default 
+INFO [11-15|13:47:35] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|13:47:35] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+WARN [11-15|13:47:35] Upgrading database to use lookup entries 
+INFO [11-15|13:47:35] Database deduplication successful        deduped=0
+INFO [11-15|13:47:35] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|13:47:35] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|13:47:35] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|13:47:35] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|13:47:35] Loaded most recent local header          number=0 hash=600845…80887c td=1024
+INFO [11-15|13:47:35] Loaded most recent local full block      number=0 hash=600845…80887c td=1024
+INFO [11-15|13:47:35] Loaded most recent local fast block      number=0 hash=600845…80887c td=1024
+INFO [11-15|13:47:35] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-15|13:47:35] Starting P2P networking 
+INFO [11-15|13:47:37] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|13:47:37] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|13:47:37] IPC endpoint opened: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|13:47:37] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|13:48:30] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|13:48:30] IPC endpoint closed: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|13:48:30] Blockchain manager stopped 
+INFO [11-15|13:48:30] Stopping Ethereum protocol 
+INFO [11-15|13:48:30] Ethereum protocol stopped 
+INFO [11-15|13:48:30] Transaction pool stopped 
+INFO [11-15|13:48:30] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|13:49:24] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|13:49:24] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|13:49:24] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|13:49:24] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|13:49:24] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|13:49:24] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|13:49:24] Loaded most recent local header          number=0 hash=600845…80887c td=1024
+INFO [11-15|13:49:24] Loaded most recent local full block      number=0 hash=600845…80887c td=1024
+INFO [11-15|13:49:24] Loaded most recent local fast block      number=0 hash=600845…80887c td=1024
+INFO [11-15|13:49:24] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|13:49:24] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-15|13:49:24] Starting P2P networking 
+INFO [11-15|13:49:26] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|13:49:26] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|13:49:26] IPC endpoint opened: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|13:49:26] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|13:55:58] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|13:55:58] IPC endpoint closed: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|13:55:58] Blockchain manager stopped 
+INFO [11-15|13:55:58] Stopping Ethereum protocol 
+INFO [11-15|13:55:58] Ethereum protocol stopped 
+INFO [11-15|13:55:58] Transaction pool stopped 
+INFO [11-15|13:55:58] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|13:57:43] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|13:57:43] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|13:57:43] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|13:57:43] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|13:57:43] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|13:57:43] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|13:57:43] Loaded most recent local header          number=0 hash=600845…80887c td=1024
+INFO [11-15|13:57:43] Loaded most recent local full block      number=0 hash=600845…80887c td=1024
+INFO [11-15|13:57:43] Loaded most recent local fast block      number=0 hash=600845…80887c td=1024
+INFO [11-15|13:57:43] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|13:57:43] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-15|13:57:43] Starting P2P networking 
+INFO [11-15|13:57:45] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|13:57:45] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|13:57:45] IPC endpoint opened: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|13:57:45] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:07:52] Block synchronisation started 
+INFO [11-15|14:07:52] Imported new state entries               count=1 elapsed=103.609µs processed=1 pending=0 retry=0 duplicate=0 unexpected=0
+WARN [11-15|14:07:52] Synchronisation failed, retrying         err="receipt download canceled (requested)"
+INFO [11-15|14:08:23] Imported new state entries               count=1 elapsed=79.906µs  processed=2 pending=0 retry=0 duplicate=0 unexpected=0
+WARN [11-15|14:08:23] Synchronisation failed, retrying         err="receipt download canceled (requested)"
+INFO [11-15|14:08:54] Imported new state entries               count=1 elapsed=39.734µs  processed=3 pending=0 retry=0 duplicate=0 unexpected=0
+INFO [11-15|14:08:56] Imported new block headers               count=192 elapsed=1.653s    number=192 hash=a92818…951348 ignored=0
+INFO [11-15|14:08:56] Imported new block receipts              count=192 elapsed=3.630ms   bytes=768 number=192 hash=a92818…951348 ignored=0
+INFO [11-15|14:08:56] Imported new block headers               count=192 elapsed=45.703ms  number=384 hash=2b59bc…8ff133 ignored=0
+INFO [11-15|14:08:56] Imported new block receipts              count=192 elapsed=3.001ms   bytes=768 number=384 hash=2b59bc…8ff133 ignored=0
+INFO [11-15|14:08:58] Imported new block headers               count=960 elapsed=2.174s    number=1344 hash=72bc12…3149ce ignored=0
+INFO [11-15|14:08:58] Imported new block receipts              count=953 elapsed=159.184ms bytes=3812 number=1337 hash=406fe9…b80194 ignored=0
+INFO [11-15|14:08:58] Imported new block headers               count=108 elapsed=218.472ms number=1452 hash=392b05…5fd273 ignored=0
+INFO [11-15|14:08:58] Imported new state entries               count=1   elapsed=81.988µs  processed=4 pending=0 retry=0 duplicate=0 unexpected=0
+INFO [11-15|14:08:58] Imported new block receipts              count=1   elapsed=180.404µs bytes=4    number=1338 hash=2bf980…54378a ignored=0
+INFO [11-15|14:08:58] Committed new head block                 number=1338 hash=2bf980…54378a
+INFO [11-15|14:08:58] Imported new chain segment               blocks=114 txs=0 mgas=0.000 elapsed=30.400ms  mgasps=0.000 number=1452 hash=392b05…5fd273
+INFO [11-15|14:08:58] Fast sync complete, auto disabling 
+WARN [11-15|14:08:58] Skipping deep transaction reorg          depth=1452
+INFO [11-15|14:09:00] Imported new chain segment               blocks=3   txs=0 mgas=0.000 elapsed=13.230ms  mgasps=0.000 number=1455 hash=b1dcbb…32c9bd
+INFO [11-15|14:09:00] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.978ms   mgasps=0.000 number=1456 hash=e866d6…ef6147
+INFO [11-15|14:09:04] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.098ms   mgasps=0.000 number=1457 hash=8db5db…af38db
+INFO [11-15|14:09:05] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.242ms   mgasps=0.000 number=1458 hash=4ab3e4…1922da
+INFO [11-15|14:09:05] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.429ms   mgasps=0.000 number=1459 hash=b77960…863d6c
+INFO [11-15|14:09:06] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.881ms   mgasps=0.000 number=1460 hash=7e302e…83804b
+INFO [11-15|14:09:06] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.938ms   mgasps=0.000 number=1461 hash=eb09c6…fefb2d
+INFO [11-15|14:09:09] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.712ms   mgasps=0.000 number=1462 hash=173795…5331d1
+INFO [11-15|14:09:10] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.921ms   mgasps=0.000 number=1463 hash=8f3878…3579e8
+INFO [11-15|14:09:12] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.990ms   mgasps=0.000 number=1464 hash=116909…b9caec
+INFO [11-15|14:09:12] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=4.214ms   mgasps=0.000 number=1465 hash=2eb86e…c2de3b
+INFO [11-15|14:09:14] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.804ms   mgasps=0.000 number=1466 hash=9c63d0…4a1a4d
+INFO [11-15|14:09:16] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=5.024ms   mgasps=0.000 number=1467 hash=d3fd9a…6da255
+INFO [11-15|14:09:17] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.896ms   mgasps=0.000 number=1468 hash=ae4ab3…7e9d53
+INFO [11-15|14:09:18] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.877ms   mgasps=0.000 number=1469 hash=8733ad…dd0cb5
+INFO [11-15|14:09:19] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=5.542ms   mgasps=0.000 number=1470 hash=86df36…753f74
+INFO [11-15|14:09:19] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=4.037ms   mgasps=0.000 number=1471 hash=b3a5db…49515c
+INFO [11-15|14:09:20] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.077ms   mgasps=0.000 number=1472 hash=89198d…849208
+INFO [11-15|14:09:21] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.864ms   mgasps=0.000 number=1473 hash=5951af…835ee7
+INFO [11-15|14:09:25] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.460ms   mgasps=0.000 number=1474 hash=9cb2c8…d03f90
+INFO [11-15|14:09:25] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.103ms   mgasps=0.000 number=1475 hash=82bd25…adcd6b
+INFO [11-15|14:09:26] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=9.030ms   mgasps=0.000 number=1476 hash=865988…78beb3
+INFO [11-15|14:09:30] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.025ms   mgasps=0.000 number=1477 hash=a3bd10…8f30f6
+INFO [11-15|14:09:33] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.416ms   mgasps=0.000 number=1478 hash=b81537…1f802b
+INFO [11-15|14:09:33] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=5.456ms   mgasps=0.000 number=1479 hash=d9a6c7…823bb6
+INFO [11-15|14:09:34] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=5.964ms   mgasps=0.000 number=1480 hash=96dd8f…df6a53
+INFO [11-15|14:09:36] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.279ms   mgasps=0.000 number=1481 hash=54a6aa…789392
+INFO [11-15|14:09:36] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.986ms   mgasps=0.000 number=1482 hash=8e03ab…75f6df
+INFO [11-15|14:09:37] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.021ms   mgasps=0.000 number=1483 hash=cf0c4b…86d077
+INFO [11-15|14:09:38] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.421ms   mgasps=0.000 number=1484 hash=667291…9c8f36
+INFO [11-15|14:09:38] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=8.041ms   mgasps=0.000 number=1485 hash=5e0e52…d6ac03
+INFO [11-15|14:09:40] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.256ms   mgasps=0.000 number=1486 hash=b373b3…816629
+INFO [11-15|14:09:40] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=4.710ms   mgasps=0.000 number=1487 hash=3019df…366fba
+INFO [11-15|14:09:44] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=10.499ms  mgasps=0.000 number=1488 hash=280135…9bc631
+INFO [11-15|14:09:46] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=9.572ms   mgasps=0.000 number=1489 hash=0a3b04…cfd590
+INFO [11-15|14:09:47] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.967ms   mgasps=0.000 number=1490 hash=cf11cf…f03fd6
+INFO [11-15|14:09:48] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.776ms   mgasps=0.000 number=1491 hash=286da4…a50e02
+INFO [11-15|14:09:49] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=5.120ms   mgasps=0.000 number=1492 hash=694a46…1be601
+INFO [11-15|14:09:50] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.405ms   mgasps=0.000 number=1493 hash=92966b…4f3296
+INFO [11-15|14:09:50] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=6.291ms   mgasps=0.000 number=1494 hash=90a1be…d5c609
+INFO [11-15|14:09:52] Imported new chain segment               blocks=1   txs=0 mgas=0.000 elapsed=7.932ms   mgasps=0.000 number=1495 hash=684f39…436c2d
+INFO [11-15|14:09:55] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:09:55] IPC endpoint closed: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|14:09:55] Blockchain manager stopped 
+INFO [11-15|14:09:55] Stopping Ethereum protocol 
+INFO [11-15|14:09:55] Ethereum protocol stopped 
+INFO [11-15|14:09:55] Transaction pool stopped 
+INFO [11-15|14:09:55] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:11:51] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:11:51] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:11:51] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:11:51] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:11:51] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:11:51] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:11:51] Loaded most recent local header          number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:11:51] Loaded most recent local full block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:11:51] Loaded most recent local fast block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:11:51] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:11:51] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-15|14:11:51] Blockchain not empty, fast sync disabled 
+INFO [11-15|14:11:51] Starting P2P networking 
+INFO [11-15|14:11:54] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:11:54] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:11:54] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:27:27] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:27:27] Blockchain manager stopped 
+INFO [11-15|14:27:27] Stopping Ethereum protocol 
+INFO [11-15|14:27:27] Ethereum protocol stopped 
+INFO [11-15|14:27:27] Transaction pool stopped 
+INFO [11-15|14:27:27] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:27:34] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:27:34] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:27:34] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:27:34] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:27:34] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:27:34] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:27:34] Loaded most recent local header          number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:27:34] Loaded most recent local full block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:27:34] Loaded most recent local fast block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:27:34] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:27:34] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-15|14:27:34] Blockchain not empty, fast sync disabled 
+INFO [11-15|14:27:34] Starting P2P networking 
+INFO [11-15|14:27:36] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:27:36] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:27:36] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:27:47] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:27:47] Blockchain manager stopped 
+INFO [11-15|14:27:47] Stopping Ethereum protocol 
+INFO [11-15|14:27:47] Ethereum protocol stopped 
+INFO [11-15|14:27:47] Transaction pool stopped 
+INFO [11-15|14:27:47] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:28:16] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:28:16] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:28:16] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:28:16] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:28:16] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:28:16] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:28:16] Loaded most recent local header          number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:28:16] Loaded most recent local full block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:28:16] Loaded most recent local fast block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:28:16] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:28:16] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-15|14:28:16] Blockchain not empty, fast sync disabled 
+INFO [11-15|14:28:16] Starting P2P networking 
+INFO [11-15|14:28:18] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:28:18] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:28:18] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:28:22] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:28:22] Blockchain manager stopped 
+INFO [11-15|14:28:22] Stopping Ethereum protocol 
+INFO [11-15|14:28:22] Ethereum protocol stopped 
+INFO [11-15|14:28:22] Transaction pool stopped 
+INFO [11-15|14:28:22] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:29:17] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:29:17] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:29:17] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:29:17] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:29:17] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:29:17] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:29:17] Loaded most recent local header          number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:29:17] Loaded most recent local full block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:29:17] Loaded most recent local fast block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:29:17] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:29:17] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-15|14:29:17] Starting P2P networking 
+INFO [11-15|14:29:19] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:29:19] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:30303
+INFO [11-15|14:29:19] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:30:01] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:30:01] Blockchain manager stopped 
+INFO [11-15|14:30:01] Stopping Ethereum protocol 
+INFO [11-15|14:30:01] Ethereum protocol stopped 
+INFO [11-15|14:30:01] Transaction pool stopped 
+INFO [11-15|14:30:01] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:30:13] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:30:13] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:30:13] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:30:13] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:30:13] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:30:13] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:30:13] Loaded most recent local header          number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:30:13] Loaded most recent local full block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:30:13] Loaded most recent local fast block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:30:13] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:30:13] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-15|14:30:13] Blockchain not empty, fast sync disabled 
+INFO [11-15|14:30:13] Starting P2P networking 
+INFO [11-15|14:30:15] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:30:15] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:30:15] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:30:25] Block synchronisation started 
+WARN [11-15|14:30:25] Synchronisation failed, retrying         err="block header download canceled (requested)"
+WARN [11-15|14:30:55] Synchronisation failed, retrying         err="block body download canceled (requested)"
+WARN [11-15|14:31:25] Synchronisation failed, retrying         err="block header download canceled (requested)"
+WARN [11-15|14:31:55] Synchronisation failed, retrying         err="block body download canceled (requested)"
+WARN [11-15|14:32:25] Synchronisation failed, retrying         err="block body download canceled (requested)"
+WARN [11-15|14:32:55] Synchronisation failed, retrying         err="block header download canceled (requested)"
+INFO [11-15|14:33:19] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:33:19] Blockchain manager stopped 
+INFO [11-15|14:33:19] Stopping Ethereum protocol 
+INFO [11-15|14:33:19] Ethereum protocol stopped 
+INFO [11-15|14:33:19] Transaction pool stopped 
+INFO [11-15|14:33:19] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:34:04] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:34:04] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:34:04] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:34:04] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:34:04] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:34:04] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:34:04] Loaded most recent local header          number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:34:04] Loaded most recent local full block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:34:04] Loaded most recent local fast block      number=1495 hash=684f39…436c2d td=287621178
+INFO [11-15|14:34:04] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:34:04] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-15|14:34:04] Blockchain not empty, fast sync disabled 
+INFO [11-15|14:34:04] Starting P2P networking 
+INFO [11-15|14:34:06] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:34:06] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:34:06] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:34:36] Block synchronisation started 
+WARN [11-15|14:34:36] Synchronisation failed, retrying         err="header processing canceled (requested)"
+WARN [11-15|14:35:06] Synchronisation failed, retrying         err="block body download canceled (requested)"
+WARN [11-15|14:35:36] Synchronisation failed, retrying         err="header processing canceled (requested)"
+WARN [11-15|14:36:06] Synchronisation failed, retrying         err="header processing canceled (requested)"
+INFO [11-15|14:36:36] Imported new chain segment               blocks=128 txs=0 mgas=0.000 elapsed=222.833ms mgasps=0.000 number=1623 hash=47fd8a…a6e4d8
+WARN [11-15|14:36:36] Skipping deep transaction reorg          depth=128
+INFO [11-15|14:36:36] Imported new chain segment               blocks=2   txs=1 mgas=0.021 elapsed=10.434ms  mgasps=2.013 number=1625 hash=2109b8…e0a274
+INFO [11-15|14:36:47] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:36:47] Blockchain manager stopped 
+INFO [11-15|14:36:47] Stopping Ethereum protocol 
+INFO [11-15|14:36:47] Ethereum protocol stopped 
+INFO [11-15|14:36:47] Transaction pool stopped 
+INFO [11-15|14:36:47] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:37:07] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:37:07] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:37:07] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:37:07] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:37:07] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:37:07] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:37:07] Loaded most recent local header          number=1625 hash=2109b8…e0a274 td=323924440
+INFO [11-15|14:37:07] Loaded most recent local full block      number=1625 hash=2109b8…e0a274 td=323924440
+INFO [11-15|14:37:07] Loaded most recent local fast block      number=1625 hash=2109b8…e0a274 td=323924440
+INFO [11-15|14:37:07] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:37:07] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-15|14:37:07] Blockchain not empty, fast sync disabled 
+INFO [11-15|14:37:07] Starting P2P networking 
+INFO [11-15|14:37:09] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:37:09] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:37:09] IPC endpoint opened: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|14:37:09] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:47:42] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|14:47:42] IPC endpoint closed: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|14:47:42] Blockchain manager stopped 
+INFO [11-15|14:47:42] Stopping Ethereum protocol 
+INFO [11-15|14:47:42] Ethereum protocol stopped 
+INFO [11-15|14:47:42] Transaction pool stopped 
+INFO [11-15|14:47:42] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
+INFO [11-15|14:47:43] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-amd64/go1.9
+INFO [11-15|14:47:43] Allocated cache and file handles         database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata cache=128 handles=1024
+INFO [11-15|14:47:43] Initialised chain configuration          config="{ChainID: 123456 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-15|14:47:43] Disk storage enabled for ethash caches   dir=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/ethash count=3
+INFO [11-15|14:47:43] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash                               count=2
+INFO [11-15|14:47:43] Initialising Ethereum protocol           versions="[63 62]" network=123456
+INFO [11-15|14:47:43] Loaded most recent local header          number=1625 hash=2109b8…e0a274 td=323924440
+INFO [11-15|14:47:43] Loaded most recent local full block      number=1625 hash=2109b8…e0a274 td=323924440
+INFO [11-15|14:47:43] Loaded most recent local fast block      number=1625 hash=2109b8…e0a274 td=323924440
+INFO [11-15|14:47:43] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-15|14:47:43] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [11-15|14:47:43] Blockchain not empty, fast sync disabled 
+INFO [11-15|14:47:43] Starting P2P networking 
+INFO [11-15|14:47:45] UDP listener up                          self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:47:45] RLPx listener up                         self=enode://b9c70c2eb92961a48974c93700ecec5cf5ccc3acee0876494c00da077db70b04f74a0232a1c476e543acc2f9c045d2602d7108d6643c53d3c8a1d63e18107045@[::]:1990
+INFO [11-15|14:47:45] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [11-15|14:47:45] IPC endpoint opened: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|14:49:04] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.063ms mgasps=0.000 number=1626 hash=435309…58a3d3
+INFO [11-15|14:49:06] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.193ms mgasps=0.000 number=1627 hash=f8f726…d919a1
+INFO [11-15|14:49:06] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.051ms mgasps=0.000 number=1628 hash=392047…2f3f5e
+INFO [11-15|14:49:07] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.075ms mgasps=0.000 number=1629 hash=903acb…df044c
+INFO [11-15|14:49:07] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.820ms mgasps=0.000 number=1630 hash=78e843…9e2e63
+INFO [11-15|14:50:29] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=7.895ms mgasps=2.660 number=1631 hash=5f5316…11d938
+INFO [11-15|14:50:30] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.635ms mgasps=0.000 number=1632 hash=243eee…5c3692
+INFO [11-15|14:55:16] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=6.993ms mgasps=3.003 number=1633 hash=6bccd9…17057a
+INFO [11-15|14:58:54] Imported new chain segment               blocks=1 txs=2 mgas=0.042 elapsed=8.307ms mgasps=5.056 number=1634 hash=1b1d41…f6984b
+INFO [11-15|14:58:55] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.338ms mgasps=0.000 number=1635 hash=9731d9…5b6527
+INFO [11-15|14:58:55] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.967ms mgasps=0.000 number=1636 hash=701696…a31856
+INFO [11-15|14:58:57] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.606ms mgasps=0.000 number=1637 hash=e4f536…f54454
+INFO [11-15|14:58:57] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.941ms mgasps=0.000 number=1638 hash=83dcab…03e60d
+INFO [11-15|14:59:23] Submitted transaction                    fullhash=0x1e7a105eb679b10520e59154f8530461d95487557fd3467a3d8fbf8354a47ad0 recipient=0xFF68CcF645a0b11e8b2613D67F26459A5da62A9F
+INFO [11-15|14:59:53] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=6.302ms mgasps=3.332 number=1639 hash=798ba5…f85c99
+INFO [11-15|14:59:54] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.849ms mgasps=0.000 number=1640 hash=46df98…4b77be
+INFO [11-15|14:59:55] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.515ms mgasps=0.000 number=1641 hash=851db9…7ee6c5
+INFO [11-15|15:30:43] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [11-15|15:30:43] IPC endpoint closed: /home/ubuntu/Coinnodes/GETH-1.7.2/data/geth.ipc 
+INFO [11-15|15:30:43] Blockchain manager stopped 
+INFO [11-15|15:30:43] Stopping Ethereum protocol 
+INFO [11-15|15:30:43] Ethereum protocol stopped 
+INFO [11-15|15:30:43] Transaction pool stopped 
+INFO [11-15|15:30:43] Database closed                          database=/home/ubuntu/Coinnodes/GETH-1.7.2/data/geth/chaindata
