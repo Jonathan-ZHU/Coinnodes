@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )";
+
+nohup ./geth --rpc --rpcaddr 127.0.0.1 --port 10061 --rpcport 10060 --datadir "$DIR/data" &
