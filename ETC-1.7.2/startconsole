@@ -2,4 +2,4 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )";
 
-./geth --rpc --rpcaddr 127.0.0.1 --port 10061 --rpcport 10060 --datadir "$DIR/data" console 2>> ./eth.log
+./geth --rpc --rpcaddr 127.0.0.1 --port 10061 --rpcport 10060 --rpcapi "personal,db,eth,net,web3" --datadir "$DIR/data" console 2>> ./eth.log
