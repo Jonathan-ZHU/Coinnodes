@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+BIN=$DIR/bin
+
+
+while read line
+do
+    echo $line
+	$BIN/cli -conf=$DIR/bitcoin.conf -datadir=$DIR/data sendtoaddress $line 1
+done < file("./addresses.txt")
+
+
+
